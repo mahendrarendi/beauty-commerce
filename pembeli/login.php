@@ -73,7 +73,7 @@
         <div class="hpanel" style="margin-top: 50px;">
           <div class="panel-body">
             <div class="logo-pro">
-              <center><img class="main-logo" src="img/logo/logo.png" alt="Logo Beauty-Commerce" style="width: 200px; "></center>
+              <center><img class="main-logo" src="assets/img/logo/logo.png" alt="Logo Beauty-Commerce" style="width: 200px; "></center>
             </div>
             <form action="login_proses.php" method="POST" id="loginForm">
               <div class="form-group">
