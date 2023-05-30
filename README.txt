@@ -14,12 +14,4 @@
 
 ## Pembeli :
 	(Tabel Pembeli)
-	-> User/email : fifit01 / fifit.21001@mhs.unesa.ac.id
-	   Password : fifit
-	-> User/email : linda35 / nurhaslinda.21035@mhs.unesa.ac.id 
-	   Password : linda
-	-> User/email : cahya47 / rizqicahya.21047@mhs.unesa.ac.id
-	   Password : ocha
-	-> User/email : sari57 / dwirahmadhaniasari.21057@mhs.unesa.ac.id 
-	   Password : sari
-
+	
