@@ -8,7 +8,7 @@ require '../koneksi.php';
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Kerajinanku</title>
+  <title>Beauty-Commerce</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- favicon
@@ -77,7 +77,7 @@ require '../koneksi.php';
         <div class="hpanel" style="margin-top: 50px; margin-bottom: 50px;">
           <div class="panel-body">
             <div class="logo-pro">
-              <center><img class="main-logo" src="img/logo/logo.png" alt="Logo Kerajinanku" style="width: 200px; "></center>
+              <center><img class="main-logo" src="img/logo/logo.png" alt="Logo Beauty-Commerce" style="width: 200px; "></center>
             </div>
             <form action="daftar_proses.php" method="POST" id="loginForm" enctype="multipart/form-data">
             <div class="form-group">
@@ -120,7 +120,7 @@ require '../koneksi.php';
           <div class="row">
               <div class="col-12">
                   <div class="footer-copy-right">
-                      <p>Copyright © 2023 Kerajinanku,</a> All rights reserved.</p>
+                      <p>Copyright © 2023 Beauty-Commerce,</a> All rights reserved.</p>
                   </div>
               </div>
           </div>

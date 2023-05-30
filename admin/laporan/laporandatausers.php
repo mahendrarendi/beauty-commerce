@@ -10,7 +10,7 @@ $abc->AddPage();
 $abc->Image('../img/logo/logo.png', 10, 5, 30, 20);
 
 $abc->SetFont('Arial', 'B', '18');
-$abc->Cell(0, 5, 'KERAJINANKU', '0', '1', 'C', false);
+$abc->Cell(0, 5, 'Beauty-Commerce', '0', '1', 'C', false);
 $abc->SetFont('Arial', 'i', '8');
 $abc->Cell(0, 5, 'Alamat: Jl. Ketintang, Gayungan, Kota Surabaya, Jawa Timur. 60231', '0', '1', 'C', false);
 $abc->Cell(0, 5, 'http://', '0', '1', 'C', false);

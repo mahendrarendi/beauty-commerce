@@ -8,7 +8,7 @@ $kon = new Koneksi();
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kerajinanku</title>
+    <title>Beauty-Commerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -37,7 +37,7 @@ $kon = new Koneksi();
                 <div class="menu-wrapper">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.html"><img src="pembeli/assets/img/logo/logo.png" alt="" style="width: 125px;"></a>
+                        <a href="index.html"><img src="pembeli/assets/img/logo/logo.png" alt="" style="width: 75px;"></a>
                     </div>
                     <!-- Main-menu -->
                     <div class="main-menu d-none d-lg-block">
@@ -77,8 +77,8 @@ $kon = new Koneksi();
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
                     <div class="hero__caption">
-                        <h1 data-animation="fadeInLeft" data-delay=".4s" data-duration="2000ms">Kerajinanku</h1>
-                        <p data-animation="fadeInLeft" data-delay=".7s" data-duration="2000ms">Hasil karya produk kerajinan unik langsung dari pembuatnya di seluruh Indonesia.</p>
+                        <h1 data-animation="fadeInLeft" data-delay=".4s" data-duration="2000ms">Beauty Commerce</h1>
+                        <p data-animation="fadeInLeft" data-delay=".7s" data-duration="2000ms">Tampil Cantik dan Keren adalah idaman.</p>
                         <!-- Hero-btn -->
                         <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s" data-duration="2000ms">
                             <a href="pembeli/daftar.php" class="btn_1">Daftar Sekarang!</a>
@@ -90,7 +90,7 @@ $kon = new Koneksi();
         </div>
     </div>
 </div>
-<main style="background-color: #F0F0F0;">
+<main style="background-color: #4cc844;">
     <!-- Hero Area Start-->
     <div class="popular-items section-padding" id="produk">
         <div class="container">
@@ -98,8 +98,8 @@ $kon = new Koneksi();
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-8 col-md-10">
                     <div class="section-tittle text-center">
-                        <h2>Produk Populer</h2>
-                        <hr style="width: 10cm; border: 2px solid #E8AEB1;">
+                        <h3>Produk Populer</h3>
+                        <hr style="width: 6cm; border: 2px solid ##191d1f;">
                     </div>
                 </div>
             </div>
@@ -118,73 +118,31 @@ $kon = new Koneksi();
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-popular-items mb-50 text-center">
                                     <div class="popular-img">
-                                        <img src="penjual/<?php echo $hasil['produk_gambartumbnail']; ?>" alt="gambar produk" style="width: 400px; height: 370px;">
-                                        <a href="pembeli/login.php">
+                                        <img src="penjual/<?php echo $hasil['produk_gambartumbnail']; ?>" alt="gambar produk" style="width: 400px; height: 370px; border-radius: 2px;">
+                                        
+                                        <!-- <a href="pembeli/login.php"> -->
+                                        <a href="pembeli/detailproduk.php">
                                             <div class="img-cap">
                                                 <span>Beli Sekarang</span>
                                             </div>
                                         </a>
+                                        
                                         <!-- <div class="favorit-items">
                                         <span class="flaticon-heart"></span>
                                     </div> -->
                                     </div>
                                     <div class="popular-caption">
                                         <h3><a href="pembeli/login.php"><?php echo $hasil['produk_nama'] ?></a></h3>
-                                        <div class="rating" style="margin-bottom: 5px;">
-                                            <i class="fa fa-star" style="color: #24CAA1;"> <?php echo $hasil['review_rating'] ?></i>
-                                        </div>
-                                        <h4 style="font-weight: 800; color: #E8AEB1;">Rp. <?php echo $hasil['produk_harga'] ?></h4>
+                                        <!-- <div class="rating" style="margin-bottom: 5px;">
+                                            <i class="fa fa-star" style="color: #ff9000;"> <?php echo $hasil['review_rating'] ?></i>
+                                        </div> -->
+                                        <h4 style="font-weight: 800; color: #191d1f;">Rp. <?php echo $hasil['produk_harga'] ?></h4>
                                     </div>
                                 </div>
                             </div>
                         <?php
                         }
                         ?>
-                        <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-popular-items mb-50 text-center">
-                                <div class="popular-img">
-                                    <img src="pembeli/assets/img/cangkir.jpg" alt="">
-                                    <a href="pembeli/login.php">
-                                        <div class="img-cap">
-                                            <span>Beli Sekarang</span>
-
-                                        </div>
-                                    </a> -->
-                        <!-- <div class="favorit-items">
-                                        <span class="flaticon-heart"></span>
-                                    </div> -->
-                        <!-- </div>
-                                <div class="popular-caption">
-                                    <h3><a href="pembeli/login.php">Cangkir</a></h3>
-                                    <div class="rating" style="margin-bottom: 5px;">
-                                        <i class="fa fa-star" style="color: #24CAA1;"></i><i class="fa fa-star" style="color: #24CAA1;"></i><i class="fa fa-star" style="color: #24CAA1;"></i><i class="fa fa-star" style="color: #24CAA1;"></i>
-                                    </div>
-                                    <h4 style="font-weight: 800; color: #E8AEB1;">Rp 15.000</h4>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-popular-items mb-50 text-center">
-                                <div class="popular-img">
-                                    <img src="pembeli/assets/img/tas.jpg" alt="">
-                                    <a href="pembeli/login.php">
-                                        <div class="img-cap">
-                                            <span>Beli Sekarang</span>
-                                        </div>
-                                    </a> -->
-                        <!-- <div class="favorit-items">
-                                        <span class="flaticon-heart"></span>
-                                    </div> -->
-                        <!-- </div>
-                                <div class="popular-caption">
-                                    <h3><a href="pembeli/login.php">Tas</a></h3>
-                                    <div class="rating" style="margin-bottom: 5px;">
-                                        <i class="fa fa-star" style="color: #24CAA1;"></i><i class="fa fa-star" style="color: #24CAA1;"></i><i class="fa fa-star" style="color: #24CAA1;"></i><i class="fa fa-star" style="color: #24CAA1;"></i>
-                                    </div>
-                                    <h4 style="font-weight: 800; color: #E8AEB1;">Rp 80.000</h4>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
 
@@ -206,9 +164,8 @@ $kon = new Koneksi();
                         <div class="container">
                             <div class="row">
                                 <div class="about-details-cap mb-50 mt-50 ml-5">
-                                    <h4>Kerajinanku</h4>
-                                    <h5>Kerajinanku merupakan platform penjualan berbasis website yang digunakan untuk mewadahi hasil karya seni yang ada di Indonesia
-                                        sebagai bukti nyata kita mencintai dan mendukung produk Indonesia.</h5>
+                                    <h4>Beauty-Commerce</h4>
+                                    <h5>Deskripsi Beauty-Commerce</h5>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +177,7 @@ $kon = new Koneksi();
     </div>
 </div>
 
-<main style="background-color: #F0F0F0;" id="kontak">
+<main style="background-color: #4cc844;" id="kontak">
     <section class="contact-section">
         <div class="container">
             <div class="row">
@@ -274,7 +231,7 @@ $kon = new Koneksi();
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="fa fa-inbox" style="color: black;"></i></span>
                         <div class="media-body">
-                            <h3>kerajinanku@gmail.com</h3>
+                            <h3>admin@Beauty-Commerce.com</h3>
                         </div>
                     </div>
                 </div>
@@ -284,12 +241,12 @@ $kon = new Koneksi();
 </main>
 <footer>
     <!-- Footer Start-->
-    <div class="footer-area footer-padding" style="padding: 50px; background-color: black;">
+    <div class="footer-area footer-padding" style="padding: 20px; background-color: black;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="text-center">
-                        <p style="color: white;">Copyright &copy; 2023 Kerajinanku, All rights reserved</p>
+                        <p style="color: white;">Copyright &copy; 2023 BeautyCorner, All rights reserved</p>
                     </div>
                 </div>
             </div>

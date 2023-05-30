@@ -11,7 +11,7 @@ $idpembeli = @$_SESSION['pembeli_id'];
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kerajinanku</title>
+    <title>Beauty-Commerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -174,7 +174,7 @@ $idpembeli = @$_SESSION['pembeli_id'];
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="text-center">
-                        <p style="color: white;">Copyright &copy; 2023 Kerajinanku, All rights reserved</p>
+                        <p style="color: white;">Copyright &copy; 2023 Beauty-Commerce, All rights reserved</p>
                     </div>
                 </div>
             </div>

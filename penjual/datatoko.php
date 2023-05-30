@@ -12,7 +12,7 @@ $idtoko = @$_SESSION['toko_id'];
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kerajinanku</title>
+    <title>Beauty-Commerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -236,7 +236,7 @@ $idtoko = @$_SESSION['toko_id'];
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-copy-right">
-                            <p>Copyright © 2018 Kerajinanku, All rights reserved.</p>
+                            <p>Copyright © 2018 Beauty-Commerce, All rights reserved.</p>
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kerajinanku</title>
+    <title>Beauty-Commerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
+<header>
         <!-- Header Start -->
         <div class="header-area">
             <div class="main-header header-sticky">
@@ -63,21 +63,21 @@
         </div>
         <!-- Header End -->
     </header>
+    
+    
     <main style="background-color: #f0f0f0;">
         <!--================login_part Area =================-->
+
         <section class="login_part section_padding ">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-6">
-                        <div class="login_part_text text-center">
-                            <div class="login_part_text_iner">
-                                <h1 style="padding: 150px; margin-top: 50px; font-weight: 700;">Login</h1>
+                        <div class="login_part_form" style="background-color:  #d3d3d3; border-radius: 10px;">
+                            <div class="col-md-12 form-group">
+                                <img src="pembeli/assets/img/logo/logo.png" alt="logo" width="20%" class="mx-auto d-block">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="login_part_form" style="background-color: white;">
                             <div class="login_part_form_iner">
+                                
                                 <form class="row contact_form" action="login_proses.php" method="POST" novalidate="novalidate">
                                     <div class="col-md-12 form-group p_star"> 
                                         <input type="text" class="form-control" id="username" name="username" placeholder="Username / Email">

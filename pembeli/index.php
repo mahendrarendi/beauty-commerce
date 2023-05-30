@@ -11,7 +11,7 @@ $idpembeli = @$_SESSION['pembeli_id'];
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kerajinanku</title>
+    <title>Beauty-Commerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -84,9 +84,8 @@ $idpembeli = @$_SESSION['pembeli_id'];
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
                     <div class="hero__caption">
-                        <h1 data-animation="fadeInLeft" data-delay=".4s" data-duration="2000ms">Kerajinanku</h1>
-                        <p data-animation="fadeInLeft" data-delay=".7s" data-duration="2000ms">Kerajinan yang diolah dari barang bekas menjadi hasil karya yang menarik,
-                            sehingga mempunyai nilai tersendiri bagi kolektor.</p>
+                        <h1 data-animation="fadeInLeft" data-delay=".4s" data-duration="2000ms">Beauty-Commerce</h1>
+                        <p data-animation="fadeInLeft" data-delay=".7s" data-duration="2000ms">Deskripsi Beauty-Commerce</p>
                         <!-- Hero-btn -->
                         <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s" data-duration="2000ms">
                             <a href="produk.php" class="btn_1">Beli Sekarang!</a>
@@ -168,9 +167,8 @@ $idpembeli = @$_SESSION['pembeli_id'];
                         <div class="container">
                             <div class="row">
                                 <div class="about-details-cap mb-50 mt-50 ml-5">
-                                    <h4>Kerajinanku</h4>
-                                    <h5>Kerajinanku merupakan platform penjualan berbasis website yang digunakan untuk mewadahi hasil karya seni yang ada di Indonesia
-                                        sebagai bukti nyata kita mencintai dan mendukung produk Indonesia.</h5>
+                                    <h4>Beauty-Commerce</h4>
+                                    <h5>Deskripsi Beauty-Commerce</h5>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +238,7 @@ $idpembeli = @$_SESSION['pembeli_id'];
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="fa fa-inbox" style="color: black;"></i></span>
                         <div class="media-body">
-                            <h3>kerajinanku@gmail.com</h3>
+                            <h3>admin@Beauty-Commerce.com</h3>
                         </div>
                     </div>
                 </div>
@@ -255,7 +253,7 @@ $idpembeli = @$_SESSION['pembeli_id'];
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="text-center">
-                        <p style="color: white;">Copyright &copy; 2023 Kerajinanku, All rights reserved</p>
+                        <p style="color: white;">Copyright &copy; 2023 Beauty-Commerce, All rights reserved</p>
                     </div>
                 </div>
             </div>
