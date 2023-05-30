@@ -55,7 +55,7 @@ $kon = new Koneksi();
                     <div class="header-right main-menu d-lg-block">
                         <nav>
                             <ul id="navigation">
-                                <li><a href="opsi_login.html" style="margin-top: 10px;"><b>Daftar</b></a></li>
+                                <!-- <li><a href="opsi_login.html" style="margin-top: 10px;"><b>Daftar</b></a></li> -->
                                 <li><a href="opsi_login.html"><button class="btn_3"><b>Login</b></button></a></li>
                             </ul>
                         </nav>

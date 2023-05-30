@@ -50,7 +50,7 @@
                         <div class="header-right main-menu d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="daftar.php" style="margin-top: 10px;"><b>Daftar</b></a></li>
+                                    <!-- <li><a href="daftar.php" style="margin-top: 10px;"><b>Daftar</b></a></li> -->
                                     <li><a href="login.php"><button class="btn_3"><b>Login</b></button></a></li>
                                 </ul>
                             </nav>
