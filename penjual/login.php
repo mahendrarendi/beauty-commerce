@@ -76,11 +76,11 @@
               <center><img class="main-logo" src="img/logo/logo.png" alt="Logo Beauty-Commerce" style="width: 200px; "></center>
             </div>
             <form action="login_proses.php" method="POST" id="loginForm">
-              <div class="form-group">
+              <div class="form-group" style="background-color: #fff">
                 <label class="control-label" for="username" style="margin-top: 15px;">Email / Username</label>
                 <input type="text" required="" name="username" id="username" class="form-control">
               </div>
-              <div class="form-group">
+              <div class="form-group" style="background-color: #fff">
                 <label class="control-label" for="password">Password</label>
                 <input type="password" required="" name="password" id="password" class="form-control">
               </div>
