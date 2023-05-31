@@ -276,7 +276,7 @@ $toko = @$_REQUEST['toko_id'];
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-copy-right">
-                            <p>Copyright © 2018 Beauty-Commerce, All rights reserved.</p>
+                            <p>Copyright © 2023 Beauty-Commerce, All rights reserved.</p>
                         </div>
                     </div>
                 </div>
