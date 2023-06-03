@@ -243,19 +243,7 @@ $idadmin = @$_SESSION['admin_id'];
                             $review =  $kon->kueri("SELECT * FROM review");
                             $jumlahreview = $kon->jumlah_data($review);
                             ?>
-                            <!-- <div class="breadcome-list">
-                                <div class="admin-content analysis-progrebar-ctn res-mg-t-15">
-                                    <h4 class="text-left text-uppercase"><b>Total Review</b></h4>
-                                    <div class="row vertical-center-box vertical-center-box-tablet">
-                                        <div class="col-xs-1 cus-gh-hd-pro">
-                                            <h1 class="text-right no-margin"><?= number_format($jumlahreview, 0, ",", ".") ?></h1>
-                                        </div>
-                                        <div class="col-xs-10 cus-gh-hd-pro">
-                                            <i class="fa-sharp fa-solid fa-user-large"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
+                            
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <?php
