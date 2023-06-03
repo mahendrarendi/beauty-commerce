@@ -92,7 +92,7 @@ $idadmin = @$_SESSION['admin_id'];
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
-                        <li class="active" style="background-color: #E7DAD4;">
+                        <li class="active" style="background-color: #b1b1b1">
                             <a href="index.php">
                                 <i class="icon nalika-home icon-wrap" style=" color: #000000;"></i>
                                 <span class="mini-click-non" style=" color: #000000;">Dashboard</span>
