@@ -121,9 +121,9 @@ $idpembeli = @$_SESSION['pembeli_id'];
                             <div class="select-itms">
                                 <select name="select" id="select1">
                                     <option value="">Filter</option>
-                                    <option value="">50 per page</option>
-                                    <option value="">60 per page</option>
-                                    <option value="">70 per page</option>
+                                    <option value="">50</option>
+                                    <option value="">60</option>
+                                    <option value="">70</option>
                                 </select>
                             </div>
                         </form>
