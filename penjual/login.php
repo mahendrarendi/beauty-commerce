@@ -78,12 +78,12 @@
             <form action="login_proses.php" method="POST" id="loginForm">
             <div class="form-group">
                 <label class="control-label" for="username" style="margin-top: 15px;">Email / Username</label>
-                <input type="text" required="" name="username" id="username" class="form-control" style="color: white;">
+                <input type="text" required="" name="username" id="username" class="form-control">
             </div>
 
               <div class="form-group">
                 <label class="control-label" for="password" >Password</label>
-                <input type="password" required="" name="password" id="password" class="form-control" style="color: white;">
+                <input type="password" required="" name="password" id="password" class="form-control">
               </div>
               <button class="btn btn-block loginbtn" style="color: black; border: 2px solid black; background-color: #fff; border-radius: 20px;" type="submit" value="submit">Login</button>
               <p style="text-align: center; margin-top: 15px;">Belum Punya Akun?<a href="daftar.php" style="color: rgb(117, 26, 202);"> Daftar Sekarang</a></p>
