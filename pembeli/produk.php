@@ -32,7 +32,7 @@ $idpembeli = @$_SESSION['pembeli_id'];
 </head>
 
 <body>
-    <header>
+<header>
         <!-- Header Start -->
         <div class="header-area">
             <div class="main-header header-sticky">
@@ -82,10 +82,10 @@ $idpembeli = @$_SESSION['pembeli_id'];
             <div class="col-lg-4">
                 <div class="blog_right_sidebar">
                     <aside class="single_sidebar_widget search_widget">
-                        <form action="#">
+                        <form action="pencarian.php" method="get">
                             <div class="form-group">
                                 <div class="input-group mb-3 ml-40">
-                                    <input type="text" class="form-control" placeholder='Cari...' onfocus="this.placeholder = ''" onblur="this.placeholder = 'Cari...'">
+                                    <input type="text" class="form-control" placeholder='Cari...' name="keyword" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Cari...'">
                                     <div class="input-group-append">
                                         <button class="btns" type="button"><i class="ti-search"></i></button>
                                     </div>
